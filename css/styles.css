@@ -7,16 +7,43 @@ body {
 }
 
 .header-logo {
-  width: 30%;
+  width: 20%;
+}
+
+.nav-wrapper {
+  background: none;
+}
+
+.nav-wrapper li {
+  color: #000;
 }
 
 .header {
+  background-image: url(../img/hero-image.jpg);
+  height: 400px;
 }
 
 .header h2 {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.insights {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.header-link {
+  position: relative;
+  margin-top: 300px;
+  margin-left: 200px;
 
 }
+
+.hero-image {
+}
+
 
 .card-content {
   text-align: center;
@@ -33,4 +60,17 @@ body {
 
 .form-row {
   background-color: #3466d7;
+}
+
+.form-row h3 {
+  color: #fff;
+}
+
+.form-row p {
+  color: #fff;
+  font-size: 12px;
+}
+
+.input-field label {
+  color: #fff;
 }
