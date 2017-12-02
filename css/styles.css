@@ -1,5 +1,6 @@
 body {
   background-color: #f5f5f5;
+  /*padding: 10px;*/
 }
 
 .container {
@@ -11,16 +12,21 @@ body {
 }
 
 .nav-wrapper {
-  background: none;
+  background: #fff;
+  border: 0;
 }
 
-.nav-wrapper li {
+.nav-wrapper a {
   color: #000;
 }
 
+.header .btn {
+  background-color: #3466d7;
+}
+
 .header {
-  background-image: url(../img/hero-image.jpg);
   height: 400px;
+  background-image: url(../img/hero-image.jpg);
 }
 
 .header h2 {
@@ -42,6 +48,7 @@ body {
 }
 
 .hero-image {
+  position: relative;
 }
 
 
@@ -60,6 +67,7 @@ body {
 
 .form-row {
   background-color: #3466d7;
+  margin-bottom: 0;
 }
 
 .form-row h3 {
@@ -71,6 +79,24 @@ body {
   font-size: 12px;
 }
 
+.form-row .btn {
+  background-color: #fff;
+  color: #3466d7;
+}
+
 .input-field label {
   color: #fff;
+}
+
+.page-footer {
+  background-color: #3466d7;
+  margin-top: 0;
+}
+
+.page-footer li {
+  display: inline;
+}
+
+.page-footer h5 {
+  float: left;
 }
