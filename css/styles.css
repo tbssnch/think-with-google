@@ -58,16 +58,18 @@ body {
 
 .deeper-row {
   background-color: #fff;
+  padding: 20px;
 }
 
 .marketers-row {
   background-color: #fff;
-  padding: none;
+  padding: 20px;
 }
 
 .form-row {
   background-color: #3466d7;
   margin-bottom: 0;
+  padding: 20px;
 }
 
 .form-row h3 {
@@ -95,8 +97,10 @@ body {
 
 .page-footer li {
   display: inline;
+
 }
 
 .page-footer h5 {
+  position: relative;
   float: left;
 }
