@@ -51,6 +51,14 @@ body {
   position: relative;
 }
 
+.row {
+  display: flex;
+}
+
+.col {
+  display: flex;
+}
+
 
 .card-content {
   text-align: center;
