@@ -51,14 +51,26 @@ body {
   position: relative;
 }
 
-.row {
-  display: flex;
+.tablet {
 }
 
-.col {
-  display: flex;
+.card {
+  height: 330px;
 }
 
+.cover-card {
+  background: url(../img/holiday-shoppers.jpg);
+  background-size: cover;
+}
+
+.cover-card2 {
+  background: url(../img/holiday.jpg);
+  background-size: cover;
+}
+
+.card-title {
+  position: fixed;
+}
 
 .card-content {
   text-align: center;
