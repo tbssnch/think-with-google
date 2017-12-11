@@ -69,7 +69,11 @@ body {
 }
 
 .card-title {
-  position: fixed;
+  display: inline-block;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 10px;
+  color: white;
 }
 
 .card-content {
